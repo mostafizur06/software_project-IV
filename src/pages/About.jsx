@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import RightNav from "../components/RightNav";
-import avatar from "../assets/images/1.jpg";
+import avatar from "../assets/images/sohan2.jpg";
 import { aboutInfo } from "../data";
 function About() {
   const [about, setAbout] = useState(null);
@@ -38,7 +38,7 @@ function About() {
                   </div>
                   <div className="extra-curriculam my-3">
                     <h3> Extra Curriculam Activities</h3>
-                    <p>Executieve, DIU Computer Programming Club (CPC)</p>
+                    <p>Executive, DIU Computer Programming Club (CPC)</p>
                   </div>
 
                   <div className="about-Eductaion mt-3">
